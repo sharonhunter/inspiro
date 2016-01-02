@@ -1,2 +1,15 @@
 <h1>Pages#home</h1>
-<p>Find me in app/views/pages/home.html.erb</p>
+
+<% quotes = Quotes.sorted_by_author %>
+
+<% quotes.each do |quote| %>
+    <p><%= quote[:text] %></p>
+    <p><%= quote[:author] %></p>
+<% end %>
+
+
+<% random_quote = Quotes.chosen %>
+
+<p><%= random_quote[:text] %></p>
+<p><%=random_quote[:author] %></p>
+				
