@@ -3,12 +3,12 @@ module Quotes
     QUOTES.sort { |a, b| a[:author].split.last <=> b[:author].split.last }
   end
 
-  def self.chosen 
+  def self.chosen_quote
     QUOTES.sample
   end
 
   QUOTES = [
-  	{ text: 'The best time to plant a tree was 20 years ago. 
+  	{ text: 'The best time to plant a tree was 20 years ago.  
              The next best time is now.',
   	  author: 'Chinese Proverb'
   	},
