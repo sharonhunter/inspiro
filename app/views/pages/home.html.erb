@@ -1,12 +1,13 @@
 <!--TODO: decide on a CSS framework or reset, pull out all inline styles-->
 
-<div style="width: 90%; border: 2px solid black; margin: 0 auto; padding: 14px;">
-	<div class="quote-container" style="height: 200px; border: 2px solid lime;">	
-	</div>
+<div class="content-container">
+	
+	<div class="quote-container"></div>
 
 	<div>
-	  <%= link_to image_tag('frog.jpg', size: '500x500', alt: 'frog illustration', style: 'display: block; margin: 0 auto;', class: 'frog-container'), pages_quote_path, remote: true, class: '' %>
+	  <%= link_to image_tag('frog.jpg', size: '500x500', alt: 'frog illustration', class: 'frog-container'), pages_quote_path, remote: true %>
 	</div>
+
 </div>
 
 

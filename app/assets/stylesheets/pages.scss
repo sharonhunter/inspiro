@@ -1,3 +1,25 @@
-// Place all the styles related to the pages controller here.
-// They will automatically be included in application.css.
-// You can use Sass (SCSS) here: http://sass-lang.com/
+// temporary basic CSS
+
+p { 
+  margin: 0;
+  padding: 0;
+}
+
+.content-container {
+	margin: 0 auto; 
+	padding: 14px; 
+	width: 90%; 
+}
+
+.quote-text,
+.quote-author {
+   font-size: 26px; 
+   text-align: center;
+}
+
+.quote-container { height: 80px; }
+
+img.frog-container { 
+	display: block; 
+	margin: 0 auto;
+}

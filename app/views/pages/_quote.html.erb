@@ -1,9 +1,10 @@
 <% chosen_quote = Quotes.chosen_quote %>
 
-<p class="quote-text" style="font-size: 26px; text-align: center;">
-   <%= chosen_quote[:text] %>
+<p class="quote-text">
+  <%= chosen_quote[:text] %>
 </p>
-<p class="quote-author" style="font-size: 26px; text-align: center;"> 
+
+<p class="quote-author"> 
    - <%=chosen_quote[:author] %>
 </p>
 	
