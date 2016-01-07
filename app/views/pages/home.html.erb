@@ -1,39 +1,15 @@
-
-<%# quotes = Quotes.sorted_by_author %>
-
-<%# quotes.each do |quote| %>
-    <!-- <p> --><%#= quote[:text] %><!-- </p> -->
-    <!-- <p> --><%#= quote[:author] %><!-- </p> -->
-<%# end %>
-
 <!--TODO: decide on a CSS framework or reset, pull out all inline styles-->
 
 <div style="width: 90%; border: 2px solid black; margin: 0 auto; padding: 14px;">
-	<div class="quote-container" style="height: 200px; border: 2px solid lime;">
-		<% chosen_quote = Quotes.chosen_quote %>
-
-		<p class="quote-text" style="font-size: 26px; text-align: center; display: none;">
-		   <%= chosen_quote[:text] %>
-		</p>
-		<p class="quote-author" style="font-size: 26px; text-align: center; display: none;"> 
-		   - <%=chosen_quote[:author] %>
-		</p>
+	<div class="quote-container" style="height: 200px; border: 2px solid lime;">	
 	</div>
 
 	<div>
+		<%= link_to 'New Quote', pages_quote_path, remote: true, class: 'new-quote-button' %>
+
 		<%= image_tag('frog.jpg', size: '500x500', alt: 'frog illustration', style: 'display: block; margin: 0 auto;', class: 'frog-container') %>
 	</div>
 </div>
-
-<!--TODO: pull this into separate JS file-->
-
-<script>
-	$('.frog-container').on('click', function(){
-		$('.quote-text').show();
-		$('.quote-author').show();
-	});
-</script>
-
 
 
 
