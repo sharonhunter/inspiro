@@ -24,7 +24,6 @@ p {
     width: 510px; 
 }
 
-
 img.frog { 
 	display: block;
 	margin: 0 auto;
@@ -60,19 +59,16 @@ img.frog {
   position: absolute;
   bottom: 10px;
   left: 10px;
+  animation: lookaround 3s linear;
+  animation-fill-mode: forwards;  
 }
 
 @keyframes lookaround {
-  0%   {transform: translateX(0)}
-  25%  {transform: translateX(26px)}
+  0%   {transform: translateX(0px)}
+  25%  {transform: translateX(-11px)}
   50%  {transform: translateX(0px)}
-  75%  {transform: translateY(-23px)}
-  100% {transform: translateX(12px)}
-}
-
-.look-around {
-  animation: lookaround 6s linear;
-  animation-fill-mode: forwards;  
+  75%  {transform: translateX(20px)}
+  100% {transform: translateX(0px)}
 }
 
 @keyframes look-up {
