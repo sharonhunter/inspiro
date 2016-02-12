@@ -139,7 +139,7 @@ module Quotes
       author: 'Robert Collier'
     },
 
-    { text: 'The No. 1 reason people fail in life is because they listen to their friends, 
+    { text: 'The number one reason people fail in life is because they listen to their friends, 
              family, and neighbors.',
       author: 'Napoleon Hill'
     },
@@ -147,7 +147,80 @@ module Quotes
     { text: 'Successful and unsuccessful people do not vary greatly in their abilities. 
              They vary in their desires to reach their potential.',
       author: 'John Maxwell'
+    },
+
+    { text: 'Today\'s the day!',
+      author: 'Mel Fisher (finder of the Atocha)'
+    },
+
+    { text: 'It\'s not that I\'m so smart, it’s just that I stay with problems longer.',
+      author: 'Albert Einstein'
+    },
+
+    { text: 'Permanence, perseverance and persistence in spite of all obstacles, discouragements 
+             and impossibilities: It is this, that in all things distinguishes the strong soul from the weak.',
+      author: 'Thomas Carlyle'
+    },
+
+    { text: 'Let me tell you the secret that has led to my goal. My strength lies solely in my tenacity.',
+      author: 'Louis Pasteur'
+    },
+
+    { text: 'When you have a great and difficult task, something perhaps almost impossible, if you only work a little at a time, 
+             every day a little, suddenly the work will finish itself.',
+      author: 'Isak Dinesen'
+    },
+
+    { text: 'Success is the child of drudgery and perseverance. It cannot be coaxed or bribed; 
+             pay the price and it is yours.',
+      author: 'Orison Swett Marden'
+    },
+
+    { text: 'A river cuts through rock, not because of its power, but because of its persistence.',
+      author: 'Jim Watkins'
+    },
+
+    { text: 'If \'Plan A\' didn\'t work, the alphabet has 25 more letters.',
+      author: 'Unknown'
+    },
+
+    { text: 'Ambition is the path to success. Persistence is the vehicle you arrive in.',
+      author: 'Bill Bradley'
+    },
+
+    { text: 'It always seems impossible until it is done.',
+      author: 'Nelson Mandela'
+    },
+
+    { text: 'With ordinary talent and extraordinary perseverance, all things are attainable.',
+      author: 'Thomas Foxwell Buxton'
+    },
+
+    { text: 'When obstacles arise, you change your direction to reach your goal, 
+             you do not change your decision to get there.',
+      author: ' Zig Ziglar'
+    },
+
+    { text: 'Some people dream of success… while others wake up and work hard at it.',
+      author: 'Unknown'
+    },
+
+    { text: 'He who would do some great thing in this short life, must apply himself to the work 
+             with such a concentration of his forces as to the idle spectators, who live only to 
+             amuse themselves, looks like insanity.',
+      author: 'John Foster'
+    },
+
+    { text: 'Conquering any difficulty always gives one a secret joy, for it means pushing back 
+             a boundary-line and adding to one`s liberty.',
+      author: 'Henri Frederic Amiel'
+    },
+
+    { text: 'When one door of happiness closes, another opens; but often we look so long at the closed 
+             door that we do not see the one which has been opened for us.',
+      author: 'Helen Keller'
     }
+
   ]
 
   end
