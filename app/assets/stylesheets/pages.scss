@@ -21,21 +21,27 @@ p {
 
 .frog-container { 
     margin: 0 auto;
-    width: 510px; }
+    width: 510px; 
+}
+
 
 img.frog { 
-	display: block; 
+	display: block;
 	margin: 0 auto;
+	transform: rotate(-1.3deg);
 }
 
 .eye-outer-div {
 	position: relative;
 	top: 110px;
+	z-index: 2;
 }
 
 .left { margin-left: 150px; }
 
-.right { margin-left: 80px; }
+.right { 
+  margin-left: 80px;   
+}
 
 .eye-white {
   height: 50px;
@@ -50,10 +56,33 @@ img.frog {
   height: 17px;
   width: 17px;
   background-color: #000;
-  border-radius: 60%;
+  border-radius: 70%;
   position: absolute;
   bottom: 10px;
   left: 10px;
+}
+
+@keyframes lookaround {
+  0%   {transform: translateX(0)}
+  25%  {transform: translateX(26px)}
+  50%  {transform: translateX(0px)}
+  75%  {transform: translateY(-23px)}
+  100% {transform: translateX(12px)}
+}
+
+.look-around {
+  animation: lookaround 6s linear;
+  animation-fill-mode: forwards;  
+}
+
+@keyframes look-up {
+  0%   {transform: translateX(0)}
+  100% {transform: translateY(-22px)}
+}
+
+.look-up {
+  animation: look-up 1s linear;
+  animation-fill-mode: forwards;  
 }
 
 

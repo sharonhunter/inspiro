@@ -6,7 +6,7 @@
 
 	<div class="frog-container">
 		<div class="eye-outer-div">
-	  	  	<div>
+	  	  	<div class="eye-container">
 		  	    <div class="eye-white left">
 		      		<div class="eye-black"></div>
 		      	</div>
@@ -20,7 +20,15 @@
 	</div>
 </div>
 
-
+<script>
+$('.frog-container').on('click', function(){
+    $('.eye-black').removeClass('look-up');
+    var extraEyes = $('.eye-container').clone();
+    $('.eye-container').remove();
+    $('.eye-outer-div').prepend(extraEyes);
+    $('.eye-black').addClass('look-up');
+});
+</script>
 
 
 
