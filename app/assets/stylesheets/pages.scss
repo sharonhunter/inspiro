@@ -19,7 +19,41 @@ p {
 
 .quote-container { height: 80px; }
 
-img.frog-container { 
+.frog-container { 
+    margin: 0 auto;
+    width: 510px; }
+
+img.frog { 
 	display: block; 
 	margin: 0 auto;
 }
+
+.eye-outer-div {
+	position: relative;
+	top: 110px;
+}
+
+.left { margin-left: 150px; }
+
+.right { margin-left: 80px; }
+
+.eye-white {
+  height: 50px;
+  width: 50px;
+  background-color: #fff;
+  border-radius: 50%;
+  display: inline-block;
+  position: relative;
+}
+
+.eye-black {
+  height: 17px;
+  width: 17px;
+  background-color: #000;
+  border-radius: 60%;
+  position: absolute;
+  bottom: 10px;
+  left: 10px;
+}
+
+

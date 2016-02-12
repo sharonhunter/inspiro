@@ -4,10 +4,20 @@
 	
 	<div class="quote-container"></div>
 
-	<div>
-	  <%= link_to image_tag('frog.jpg', size: '500x500', alt: 'frog illustration', class: 'frog-container'), pages_quote_path, remote: true %>
-	</div>
+	<div class="frog-container">
+		<div class="eye-outer-div">
+	  	  	<div>
+		  	    <div class="eye-white left">
+		      		<div class="eye-black"></div>
+		      	</div>
 
+		      	<div class="eye-white right">
+		      		<div class="eye-black"></div>
+		      	</div>
+		  	</div>
+	  	</div>
+	    <%= link_to image_tag('frog-only-without-eyes.svg', size: '500x500', alt: 'frog illustration', class: 'frog'), pages_quote_path, remote: true %>
+	</div>
 </div>
 
 
