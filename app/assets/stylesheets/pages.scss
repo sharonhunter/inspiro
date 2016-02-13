@@ -1,14 +1,13 @@
 // temporary basic CSS
 
+html { 
+  background: url(background-with-detail.svg) no-repeat center center fixed; 
+  background-size: cover;
+}
+
 p { 
   margin: 0;
   padding: 0;
-}
-
-.content-container {
-	margin: 0 auto; 
-	padding: 14px; 
-	width: 90%; 
 }
 
 .quote-text,
@@ -17,7 +16,16 @@ p {
    text-align: center;
 }
 
-.quote-container { height: 80px; }
+.quote-container { 
+   height: 130px;
+   margin: 80px auto 140px;
+   padding: 45px 25px 0;
+   width: 50%;
+}
+
+.quote-author {
+	padding: 20px;
+}
 
 .frog-container { 
     margin: 0 auto;
@@ -38,9 +46,7 @@ img.frog {
 
 .left { margin-left: 150px; }
 
-.right { 
-  margin-left: 80px;   
-}
+.right { margin-left: 80px; }
 
 .eye-white {
   height: 50px;
@@ -63,6 +69,8 @@ img.frog {
   animation-fill-mode: forwards;  
 }
 
+
+// runs on page load
 @keyframes lookaround {
   0%   {transform: translateX(0px)}
   25%  {transform: translateX(-11px)}
@@ -71,6 +79,7 @@ img.frog {
   100% {transform: translateX(0px)}
 }
 
+//runs on click
 @keyframes look-up {
   0%   {transform: translateX(0)}
   100% {transform: translateY(-22px)}
