@@ -212,7 +212,7 @@ module Quotes
     },
 
     { text: 'Conquering any difficulty always gives one a secret joy, for it means pushing back 
-             a boundary-line and adding to one`s liberty.',
+             a boundary-line and adding to one\'s liberty.',
       author: 'Henri Frederic Amiel'
     },
 
