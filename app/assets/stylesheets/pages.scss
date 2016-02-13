@@ -8,28 +8,38 @@ html {
   font-family: 'Lato', 'Arial', sans-serif;
 }
 
-p { 
-  margin: 0;
-  padding: 0;
+.cloud-one { 
+   position: absolute;
+   top: 0px;
+   animation: cloud-one 20s linear;
+   animation-fill-mode: forwards;   
+}
+
+.quote-container { 
+   height: 130px;
+   margin: 60px auto 180px;
+   text-align: center;
+   width: 50%;
+   position: relative;
+   z-index: 2;
 }
 
 .quote-text {
    font-size: 30px; 
    line-height: 1.5em;
+   margin: 0;
+
+   p { 
+     margin: 0;
+     padding: 0;
+     border: 2 px solid green;
+   }
 }
 
 .quote-author {
 	color: #2C5197;
 	font-size: 26px; 
 	padding: 20px;   
-}
-
-.quote-container { 
-   height: 130px;
-   margin: 80px auto 140px;
-   padding: 45px 25px 0;
-   text-align: center;
-   width: 50%;
 }
 
 .frog-container { 
@@ -50,7 +60,7 @@ img.frog {
 }
 
 .eye-container {
-	height: 30px;
+	height: 55px;
 	position: relative;
 }
 
@@ -71,7 +81,7 @@ img.frog {
 
 .right { margin-left: 288px; }
 
-// runs on page load
+// on page load
 @keyframes lookaround {
   0%   {transform: translateX(0px)}
   25%  {transform: translateX(-11px)}
@@ -80,7 +90,13 @@ img.frog {
   100% {transform: translateX(0px)}
 }
 
-//runs on click
+@keyframes cloud-one {
+  0%   {transform: translateX(-300px)}
+  100% {transform: translateX(1500px)}
+}
+
+
+// on click
 @keyframes look-up {
   0%   {transform: translateX(0)}
   100% {transform: translateY(-22px)}
