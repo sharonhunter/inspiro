@@ -11,8 +11,10 @@ html {
 .cloud-one { 
    position: absolute;
    top: 0px;
+   left: -500px;
    animation: cloud-one 20s linear;
-   animation-fill-mode: forwards;   
+   animation-fill-mode: forwards; 
+   animation-delay: 10s;  
 }
 
 .quote-container { 
@@ -91,8 +93,8 @@ img.frog {
 }
 
 @keyframes cloud-one {
-  0%   {transform: translateX(-300px)}
-  100% {transform: translateX(1500px)}
+  0%   {transform: translateX(0px)}
+  100% {transform: translateX(2000px)}
 }
 
 
