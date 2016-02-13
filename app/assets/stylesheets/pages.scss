@@ -20,7 +20,8 @@ p {
 
 .quote-author {
 	color: #2C5197;
-	font-size: 26px;    
+	font-size: 26px; 
+	padding: 20px;   
 }
 
 .quote-container { 
@@ -29,10 +30,6 @@ p {
    padding: 45px 25px 0;
    text-align: center;
    width: 50%;
-}
-
-.quote-author {
-	padding: 20px;
 }
 
 .frog-container { 
@@ -52,31 +49,27 @@ img.frog {
 	z-index: 2;
 }
 
-.left { margin-left: 150px; }
-
-.right { margin-left: 80px; }
-
-.eye-white {
-  height: 50px;
-  width: 50px;
-  background-color: #fff;
-  border-radius: 50%;
-  display: inline-block;
-  position: relative;
+.eye-container {
+	height: 30px;
+	position: relative;
 }
 
 .eye-black {
-  height: 17px;
-  width: 17px;
+  display: inline-block;
+  height: 16px;
+  width: 16px;
   background-color: #000;
-  border-radius: 70%;
-  position: absolute;
+  border-radius: 50%;
   bottom: 10px;
   left: 10px;
+  position: absolute;
   animation: lookaround 3s linear;
-  animation-fill-mode: forwards;  
+  animation-fill-mode: forwards;    
 }
 
+.left { margin-left: 150px; }
+
+.right { margin-left: 288px; }
 
 // runs on page load
 @keyframes lookaround {
@@ -97,5 +90,7 @@ img.frog {
   animation: look-up 1s linear;
   animation-fill-mode: forwards;  
 }
+
+
 
 
