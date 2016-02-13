@@ -1,8 +1,11 @@
 // temporary basic CSS
 
+@import url(https://fonts.googleapis.com/css?family=Lato);
+
 html { 
   background: url(background-with-detail.svg) no-repeat center center fixed; 
   background-size: cover;
+  font-family: 'Lato', 'Arial', sans-serif;
 }
 
 p { 
@@ -10,16 +13,21 @@ p {
   padding: 0;
 }
 
-.quote-text,
+.quote-text {
+   font-size: 30px; 
+   line-height: 1.5em;
+}
+
 .quote-author {
-   font-size: 26px; 
-   text-align: center;
+	color: #2C5197;
+	font-size: 26px;    
 }
 
 .quote-container { 
    height: 130px;
    margin: 80px auto 140px;
    padding: 45px 25px 0;
+   text-align: center;
    width: 50%;
 }
 
