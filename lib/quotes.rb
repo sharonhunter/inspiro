@@ -219,7 +219,51 @@ module Quotes
     { text: 'When one door of happiness closes, another opens; but often we look so long at the closed 
              door that we do not see the one which has been opened for us.',
       author: 'Helen Keller'
+    },
+
+    { text: 'You cannot swim for new horizons until you have courage to lose sight of the shore.',
+      author: 'William Faulkner'
+    },
+
+    { text: 'I have discovered in life that there are ways of getting almost anywhere you want to go, 
+             if you really want to go.',
+      author: 'Langston Hughes'
+    },
+
+    { text: 'The man who thinks he can and the man who thinks he can\'t are both right. 
+             Which one are you?',
+      author: 'Henry Ford'
+    },
+
+    { text: 'To conquer frustration, one must remain intensely focused on the outcome, 
+             not the obstacles.',
+      author: 'T.F. Hodge'
+    },
+
+    { text: 'The foolish man seeks happiness in the distance. The wise grows it under his feet.',
+      author: 'James Oppenheim'
+    },
+
+    { text: 'If you have built castles in the air, your work need not be lost; that is where they should be. 
+             Now put the foundations under them.',
+      author: 'Henry David Thoreau'
+    },
+
+    { text: 'If you want to live a happy life, tie it to a goal, not to people or things.',
+      author: 'Albert Einstein'
+    },
+
+    { text: 'The greater danger for most of us lies not in setting our aim too high and falling short; but in setting our aim too low, 
+             and achieving our mark.',
+      author: 'Michelangelo Buonarroti'
+    },
+
+    { text: 'Success is not final, failure is not fatal: it is the courage to continue that counts.',
+      author: 'Winston Churchill'
     }
+
+
+    
 
   ]
 
