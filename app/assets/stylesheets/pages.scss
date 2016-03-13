@@ -14,7 +14,7 @@ html {
    height: 130px;
    margin: 60px auto 180px;
    text-align: center;
-   width: 50%;
+   min-width: 300px;
    position: relative;
    z-index: 2;
 }
@@ -27,14 +27,12 @@ html {
    p { 
      margin: 0;
      padding: 0;
-     border: 2 px solid green;
    }
 }
 
 .quote-author {
   color: #2C5197;
-  font-size: 26px; 
-  padding: 20px;   
+  font-size: 26px;    
 }
 
 // **********************************
@@ -101,7 +99,7 @@ img.frog {
 // **********************************
 
 .cloud-one { 
-  animation: cloud 30s ease-in-out 8s;
+  animation: cloud 40s ease-in-out 8s;
   animation-fill-mode: forwards; 
   left: -300px;
   opacity: 0.5;
@@ -110,7 +108,7 @@ img.frog {
 }
 
 .cloud-two { 
-   animation: cloud 32s linear 10s;
+   animation: cloud 42s linear 10s;
    animation-fill-mode: forwards; 
    left: -300px;
    opacity: 0.3;
@@ -119,7 +117,7 @@ img.frog {
 }
 
 .cloud-three {
-  animation: cloud 40s ease 12s;
+  animation: cloud 50s ease 12s;
   animation-fill-mode: forwards;  
   left: -300px;
   opacity: 0.4;
