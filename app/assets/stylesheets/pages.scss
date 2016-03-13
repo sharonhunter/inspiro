@@ -11,16 +11,16 @@ html {
 // **********************************
 
 .quote-container { 
-   height: 130px;
-   margin: 60px auto 180px;
+   min-height: 130px;
+   margin: 40px auto 100px;
    text-align: center;
-   min-width: 300px;
+   width: 60%;
    position: relative;
    z-index: 2;
 }
 
 .quote-text {
-  font-size: 30px; 
+  font-size: 20px; 
   line-height: 1.5em;
   margin: 0;
 
@@ -32,7 +32,7 @@ html {
 
 .quote-author {
   color: #2C5197;
-  font-size: 26px;    
+  font-size: 16px;    
 }
 
 // **********************************
@@ -41,7 +41,7 @@ html {
 
 .frog-container { 
   margin: 0 auto;
-  width: 510px; 
+  width: 390px;
 }
 
 img.frog { 
@@ -52,7 +52,7 @@ img.frog {
 
 .eye-outer-div {
   position: relative;
-  top: 110px;
+  top: 60px;
   z-index: 2;
 }
 
@@ -63,8 +63,8 @@ img.frog {
 
 .eye-black {
   display: inline-block;
-  height: 16px;
-  width: 16px;
+  height: 12px;
+  width: 12px;
   background-color: #000;
   border-radius: 50%;
   bottom: 10px;
@@ -74,9 +74,9 @@ img.frog {
   animation-fill-mode: forwards;    
 }
 
-.left { margin-left: 150px; }
+.left { margin-left: 129px; }
 
-.right { margin-left: 288px; }
+.right { margin-left: 210px; }
 
 // **********************************
 // ANIMATIONS
@@ -88,9 +88,9 @@ img.frog {
 
 @keyframes lookaround {
   0%   {transform: translateX(0px)}
-  25%  {transform: translateX(-11px)}
+  25%  {transform: translateX(-6px)}
   50%  {transform: translateX(0px)}
-  75%  {transform: translateX(20px)}
+  75%  {transform: translateX(9px)}
   100% {transform: translateX(0px)}
 }
 
@@ -104,7 +104,7 @@ img.frog {
   left: -300px;
   opacity: 0.5;
   position: absolute;
-  top: 0px;
+  top: -15px;
 }
 
 .cloud-two { 
@@ -195,11 +195,18 @@ img.frog {
 
 @keyframes look-up {
   0%   {transform: translateX(0)}
-  100% {transform: translateY(-22px)}
+  100% {transform: translateY(-15px)}
 }
 
+// **********************************
+// MEDA QUERIES
+// **********************************
 
-
-
+@media screen and (max-width: 800px) {
+  .quote-container {
+     border: 2px solid red;
+     width: 90%;
+  }
+}
 
 
