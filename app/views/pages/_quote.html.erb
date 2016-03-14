@@ -1,10 +1,12 @@
 <% chosen_quote = Quotes.chosen_quote %>
 
-<p class="quote-text">
-  <%= raw chosen_quote[:text] %>
-</p>
+<div class="quote-fade">
+	<p class="quote-text">
+	  &ldquo;<%= raw chosen_quote[:text] %>&rdquo;
+	</p>
 
-<p class="quote-author"> 
-   - <%=chosen_quote[:author] %>
-</p>
+	<p class="quote-author"> 
+	   - <%=chosen_quote[:author] %>
+	</p>
+</div>
 	

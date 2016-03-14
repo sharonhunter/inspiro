@@ -11,7 +11,7 @@ html {
 // **********************************
 
 .quote-container { 
-   min-height: 130px;
+   height: 130px;
    margin: 40px auto 100px;
    text-align: center;
    width: 60%;
@@ -23,6 +23,7 @@ html {
   font-size: 20px; 
   line-height: 1.5em;
   margin: 0;
+ 
 
    p { 
      margin: 0;
@@ -99,7 +100,7 @@ img.frog {
 // **********************************
 
 .cloud-one { 
-  animation: cloud 40s ease-in-out 8s;
+  animation: cloud 50s ease-in-out 8s;
   animation-fill-mode: forwards; 
   left: -300px;
   opacity: 0.5;
@@ -108,7 +109,7 @@ img.frog {
 }
 
 .cloud-two { 
-   animation: cloud 42s linear 10s;
+   animation: cloud 62s linear 36s;
    animation-fill-mode: forwards; 
    left: -300px;
    opacity: 0.3;
@@ -117,7 +118,7 @@ img.frog {
 }
 
 .cloud-three {
-  animation: cloud 50s ease 12s;
+  animation: cloud 74s ease 10s;
   animation-fill-mode: forwards;  
   left: -300px;
   opacity: 0.4;
@@ -174,11 +175,6 @@ img.frog {
   bottom: 25px;    	
 }
 
-.ladybug::after {
-  animation: up-and-down 60s ease-out 38s;
-  content: url('ladybug.svg');
-}
-
 @keyframes ladybug {
   0%   {transform: translateX(0px)}
   100% {transform: translateX(2500px)}
@@ -198,13 +194,28 @@ img.frog {
   100% {transform: translateY(-15px)}
 }
 
+.quote-fade {
+  animation: quote-fade 1.3s linear;
+  animation-fill-mode: forwards;  
+}
+
+@keyframes quote-fade {
+	0% {
+		opacity: 0.0;	
+		visibility: hidden;	
+	}
+	100% {
+		opacity: 1.0;
+		visibility: visible;
+	}
+}		
+
 // **********************************
-// MEDA QUERIES
+// MEDIA QUERIES
 // **********************************
 
 @media screen and (max-width: 800px) {
   .quote-container {
-     border: 2px solid red;
      width: 90%;
   }
 }
