@@ -12,8 +12,8 @@ module Quotes
   end
 
   QUOTES = [
-  	{ text: 'The best time to plant a tree was 20 years ago.
-             The next best time&nbsp;is&nbsp;now.',
+  	{ text: 'The best time to plant a tree was 20 years ago.<br>
+             The&nbsp;next&nbsp;best&nbsp;time&nbsp;is&nbsp;now.',
   	  author: 'Chinese Proverb'
   	},
 
@@ -86,7 +86,7 @@ module Quotes
       author: 'Philip Sidney'
     },
 
-    { text: 'The past cannot be changed. The future is yet in&nbsp;your&nbsp;power.',
+    { text: 'The past cannot be changed.<br>The future&nbsp;is&nbsp;yet&nbsp;in&nbsp;your&nbsp;power.',
       author: 'Unknown'
     },
 
@@ -129,17 +129,17 @@ module Quotes
       author: 'Thomas Edison'
     },
 
-    { text: 'Though no one can go back and make a brand new start, 
+    { text: 'Though no one can go back and make a brand new start,
              anyone can start from now and make a brand&nbsp;new&nbsp;ending.',
       author: 'Carl Bard'
     },
 
-    { text: 'Challenges are what make life interesting, and overcoming them is what 
+    { text: 'Challenges are what make life interesting,<br>and overcoming them is what 
              makes&nbsp;life&nbsp;meaningful.',
       author: 'Joshua J. Marine'
     },
 
-    { text: 'Success is the sum of small efforts, repeated day-in and&nbsp;day-out.',
+    { text: 'Success is the sum of small efforts,<br>repeated day-in and&nbsp;day-out.',
       author: 'Robert Collier'
     },
 
@@ -188,7 +188,7 @@ module Quotes
       author: 'Unknown'
     },
 
-    { text: 'Ambition is the path to success. Persistence is the vehicle you&nbsp;arrive&nbsp;in.',
+    { text: 'Ambition is the path to success.<br>Persistence is the vehicle you&nbsp;arrive&nbsp;in.',
       author: 'Bill Bradley'
     },
 
@@ -205,7 +205,7 @@ module Quotes
       author: ' Zig Ziglar'
     },
 
-    { text: 'Some people dream of success… while others wake up and work&nbsp;hard&nbsp;at&nbsp;it.',
+    { text: 'Some people dream of success…<br>while others wake up and work&nbsp;hard&nbsp;at&nbsp;it.',
       author: 'Unknown'
     },
 
@@ -225,7 +225,7 @@ module Quotes
       author: 'Helen Keller'
     },
 
-    { text: 'You cannot swim for new horizons until you have courage to lose sight of&nbsp;the&nbsp;shore.',
+    { text: 'You cannot swim for new horizons until you have the courage to&nbsp;lose&nbsp;sight&nbsp;of&nbsp;the&nbsp;shore.',
       author: 'William Faulkner'
     },
 
@@ -234,7 +234,7 @@ module Quotes
       author: 'Langston Hughes'
     },
 
-    { text: 'The man who thinks he can and the man who thinks he can\'t are both right. 
+    { text: 'The man who thinks he can and the man who thinks he can\'t are both right.
              Which&nbsp;one&nbsp;are&nbsp;you?',
       author: 'Henry Ford'
     },
@@ -258,7 +258,7 @@ module Quotes
     },
 
     { text: 'The greater danger for most of us lies not in setting our aim too high and falling short; but in setting our aim too low, 
-             and achieving&nbsp;our&nbsp;mark.',
+             and&nbsp;achieving&nbsp;our&nbsp;mark.',
       author: 'Michelangelo Buonarroti'
     },
 
