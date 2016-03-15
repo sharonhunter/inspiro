@@ -1,9 +1,20 @@
 @import url(https://fonts.googleapis.com/css?family=Lato);
 
+$blue-text: #2C5197;
+
 html { 
   background: url(background-with-detail.svg) no-repeat center center fixed; 
   background-size: cover;
   font-family: 'Lato', 'Arial', sans-serif;
+}
+
+.intro-msg {
+  color: $blue-text;
+  font-size: 18px; 
+  left: 50%;
+  top: 85px;
+  position: absolute;
+  transform: translateX(-50%);
 }
 
 // **********************************
@@ -12,7 +23,7 @@ html {
 
 .quote-container { 
    height: 130px;
-   margin: 40px auto 100px;
+   margin: 40px auto 120px;
    text-align: center;
    width: 60%;
    position: relative;
@@ -32,7 +43,7 @@ html {
 }
 
 .quote-author {
-  color: #2C5197;
+  color: $blue-text;
   font-size: 16px;    
 }
 
@@ -195,7 +206,7 @@ img.frog {
 }
 
 .quote-fade {
-  animation: quote-fade 1.3s linear;
+  animation: quote-fade 1.5s linear;
   animation-fill-mode: forwards;  
 }
 

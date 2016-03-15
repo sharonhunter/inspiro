@@ -1,3 +1,5 @@
+<%#= javascript_include_tag 'frog.js' %>
+
 <div class="content-container">
 
 	<%=image_tag('cloud.svg', size: '250x150', class: 'cloud-one') %>
@@ -16,6 +18,10 @@
 		<div class="quote-container"></div>
 	</div>
 
+	<div class="intro-msg">
+	  <p>Click frog for inspiration!</p>
+	</div>
+
 	<div class="frog-container">
 		<div class="eye-outer-div">
 	  	  	<div class="eye-container">
@@ -26,17 +32,6 @@
 	    <%= link_to image_tag('frog-only-without-eyes.svg', size: '300x280', alt: 'frog illustration', class: 'frog'), pages_quote_path, remote: true %>
 	</div>
 </div>
-
-<script>
-$('.frog-container').on('click', function(){
-    $('.eye-black').removeClass('look-up');
-    var extraEyes = $('.eye-container').clone();
-    $('.eye-container').remove();
-    $('.eye-outer-div').prepend(extraEyes);
-    $('.eye-black').addClass('look-up');
-});
-</script>
-
 
 
 
