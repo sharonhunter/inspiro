@@ -264,6 +264,56 @@ module Quotes
 
     { text: 'Success is not final, failure is not fatal: it is the courage to continue&nbsp;that&nbsp;counts.',
       author: 'Winston Churchill'
+    },
+
+    { text: 'Look for something positive in each day, even if some days you have to look&nbsp;a&nbsp;little&nbsp;harder.',
+      author: 'Unknown'
+    }, 
+
+    { text: 'Success is no accident. It is hard work, perseverance, learning, studying, sacrifice 
+             and most of all, love of what you&nbsp;are&nbsp;doing.',
+      author: 'Pele'
+    },
+
+    { text: 'Create the highest, grandest vision possible for your life, because you become what&nbsp;you&nbsp;believe.',
+      author: 'Oprah Winfrey'
+    },
+
+    { text: 'Difficult roads often lead to beautiful&nbsp;destinations.',
+      author: 'Unknown'
+    },
+
+    { text: 'In the end, we only regret the chances we&nbsp;didn\'t&nbsp;take.',
+      author: 'Unknown'
+    },
+
+    { text: 'If you don\'t build your dream, someone else will hire you to help them build theirs.',
+      author: 'Tony A. Gaskins Jr.'
+    },
+
+    { text: 'It\s hard to beat a person who NEVER GIVES UP.',
+      author: 'Babe Ruth'
+    },
+
+    { text: 'Don\t let the noise of other peoples\' opinions drown out your own inner voice.',
+      author: 'Steve Jobs'
+    },
+
+    { text: 'Far and away the best prize that life offers is the chance to 
+             work hard at work worth doing.',
+      author: 'Theodore Roosevelt'
+    },
+
+    { text: 'I\'ve failed over and over and over again in my life. And that is why I succeed.',
+      author: 'Michael Jordan'
+    },
+
+    { text: 'The most difficult thing is the decision to act, the rest is merely tenacity.',
+      author: 'Amelia Earhart'
+    },
+
+    { text: 'The only person you are destined to become is the person you decide to be.',
+      author: 'Ralph Waldo Emerson'
     }
   ]
 
