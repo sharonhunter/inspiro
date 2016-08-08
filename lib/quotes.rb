@@ -4,7 +4,10 @@ module Quotes
   end
 
   def self.chosen_quote
-    QUOTES.sample
+    arr = []
+    chosen = QUOTES.sample
+    arr <<= QUOTES.delete(chosen)
+    chosen = arr[0..arr.size>>2].sample
   end
 
   def self.first_quote
@@ -115,7 +118,7 @@ module Quotes
       author: 'George Eliot'
     },
 
-    { text: 'You are today where your thoughts have brought you; you will be 
+    { text: 'You are today where your thoughts have brought you;&nbsp;you will be 
              tomorrow where your thoughts&nbsp;take&nbsp;you.',
       author: 'James Allen'
     },
@@ -287,32 +290,32 @@ module Quotes
       author: 'Unknown'
     },
 
-    { text: 'If you don\'t build your dream, someone else will hire you to help them build theirs.',
+    { text: 'If you don\'t build your dream, someone else will hire you to help them&nbsp;build&nbsp;theirs.',
       author: 'Tony A. Gaskins Jr.'
     },
 
-    { text: 'It\s hard to beat a person who NEVER GIVES UP.',
+    { text: 'It\'s hard to beat a person who NEVER&nbsp;GIVES&nbsp;UP.',
       author: 'Babe Ruth'
     },
 
-    { text: 'Don\t let the noise of other peoples\' opinions drown out your own inner voice.',
+    { text: 'Don\'t let the noise of other peoples\' opinions drown out your own&nbsp;inner&nbsp;voice.',
       author: 'Steve Jobs'
     },
 
     { text: 'Far and away the best prize that life offers is the chance to 
-             work hard at work worth doing.',
+             work hard at work&nbsp;worth&nbsp;doing.',
       author: 'Theodore Roosevelt'
     },
 
-    { text: 'I\'ve failed over and over and over again in my life. And that is why I succeed.',
+    { text: 'I\'ve failed over and over and over again in my life. And that is why&nbsp;I&nbsp;succeed.',
       author: 'Michael Jordan'
     },
 
-    { text: 'The most difficult thing is the decision to act, the rest is merely tenacity.',
+    { text: 'The most difficult thing is the decision to act, the rest is&nbsp;merely&nbsp;tenacity.',
       author: 'Amelia Earhart'
     },
 
-    { text: 'The only person you are destined to become is the person you decide to be.',
+    { text: 'The only person you are destined to become is the person you decide&nbsp;to&nbsp;be.',
       author: 'Ralph Waldo Emerson'
     }
   ]
