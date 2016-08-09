@@ -14,7 +14,13 @@ html {
   left: 50%;
   top: 85px;
   position: absolute;
+  text-align: center;
   transform: translateX(-50%);
+}
+
+#Layer_1 {
+  display: block;
+  margin: -12px auto;
 }
 
 // **********************************
@@ -35,7 +41,6 @@ html {
   line-height: 1.5em;
   margin: 0;
  
-
    p { 
      margin: 0;
      padding: 0;
